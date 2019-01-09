@@ -1,9 +1,6 @@
-@media (min-width: 768px) {
-
 body {
 	background-color: #F1F1F1;
 }
-
 .block1, .block2 {
 	display: inline-block;
 	background-color: #FFFFFF;
@@ -45,7 +42,7 @@ hr {
 	width: 50%;
 }
 
-.text {
+p.text {
 	font-family: arial;
 	margin-left: 40px;
 	color: #BDBDBD;
@@ -60,23 +57,22 @@ hr {
 	margin-left: 40%;
 	margin-top: 10px;
 }
-}
 
 @media (min-width: 320px) and (max-width: 767px) {
 
 .block1, .block2 {
-		display: block;
-		width: 90%;
+	width: 90%;
+	background-color: #FFFFFF;
 }
 
 .blockphoto {
 		width: 90%;
 		height: 45%;
 		margin: 5%;
-	}
+}
+
 .mainblock {
 	width: 100%;
 	position: absolute;
-
 }
-}
+												}
