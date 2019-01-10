@@ -1,6 +1,7 @@
 body {
 	background-color: #F1F1F1;
 }
+
 .block1, .block2 {
 	display: inline-block;
 	background-color: #FFFFFF;
@@ -13,7 +14,6 @@ body {
 	position: relative;
 	top: 5%;
 	margin-left: 20%;
-	margin-right: 20%;
 }
 
 .blockphoto {
@@ -42,7 +42,7 @@ hr {
 	width: 50%;
 }
 
-p.text {
+.text {
 	font-family: arial;
 	margin-left: 40px;
 	color: #BDBDBD;
@@ -50,29 +50,42 @@ p.text {
 	line-height: 1.3em;
 }
 
-.knopka {
+.button{
 	padding: 10px;
 	background-color: #FFFFFF;
-	border: 0.5px solid #BDBDBD;
-	margin-left: 40%;
-	margin-top: 10px;
+	border: 0.8px solid #BDBDBD;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	left: 35%;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media only screen and (max-width : 768px) {
 
 .block1, .block2 {
-	width: 90%;
+	width: 100%;
 	background-color: #FFFFFF;
 }
 
 .blockphoto {
-		width: 90%;
-		height: 45%;
-		margin: 5%;
+	width: 90%;
+	height: 30%;
+	margin: 5%;
 }
 
 .mainblock {
 	width: 100%;
-	position: absolute;
+	position: relative;
+	margin-left: 0;
+}
+
+.text {
+	font-size: 18px;
+}
+
+.button {
+	padding: 10px;
+	background-color: #FFFFFF;
+	border: 0.7px solid #BDBDBD;
 }
 												}
